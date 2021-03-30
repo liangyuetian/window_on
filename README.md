@@ -1,8 +1,8 @@
 # window 事件汇总
 
 1. "onsearch"
-2. "onappinstalled" **Window 对象的 onappinstalled 属性用于处理 appinstalled  事件，该事件是一个实现了 Event接口的简单事件，会在网页应用成功安装为渐进式网页应用时立即触发。
-3. "onbeforeinstallprompt"**
+2. "onappinstalled" **Window 对象的 onappinstalled 属性用于处理 appinstalled  事件，该事件是一个实现了 Event接口的简单事件，会在网页应用成功安装为渐进式网页应用时立即触发。**
+3. "onbeforeinstallprompt"
 4. "onabort"
 5. "onblur"
 6. "oncancel"
