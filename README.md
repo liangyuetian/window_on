@@ -4,15 +4,15 @@
 1. **onsearch**
 2. **onappinstalled** Window 对象的 onappinstalled 属性用于处理 appinstalled  事件，该事件是一个实现了 Event接口的简单事件，会在网页应用成功安装为渐进式网页应用时立即触发。
 3. **onbeforeinstallprompt** Window.onbeforeinstallprompt 属性是一个事件处理程序, 用于处理一个beforeinstallprompt, 当一个Web清单存在时，它将在移动设备上发送，但是在提示用户将网站保存到主屏幕之前。
-4. **onabort**
-5. **onblur**
-6. **oncancel**
-7. **oncanplay**
-8. **oncanplaythrough**
-9. **onchange**
+4. **onabort** 一个中断事件的事件处理器发送到window全局对象。（Firefox 2 和Safari不可用）
+5. **onblur** onblur属性用来获取或设置当前元素的onBlur事件的事件处理函数
+6. **oncancel** 当用户需要离开一个<dialog>元素的时候就会触发 cancel 事件. 这个事件处理器会防止事件向上传递,因此任何父处理器都不会接受到该事件。
+7. **oncanplay** 当用户代理能够播放媒体时canplay 事件被触发 , 但是预估没有加载全部的数据以支持媒体播放完毕。
+8. **oncanplaythrough** 当用户代理可以播放媒体资源并且可以播放至其结束而不必进一步缓冲内容时，触发canplaythrough事件。
+9. **onchange** onchange可以用来获取或设置当前元素的change事件的事件处理函数.
 10. **onclick**
-11. **onclose**
-12. **oncontextmenu**
+11. **onclose** 这是一个实验中的功能! 当用户关闭一个 <dialog> 时，close 事件将被触发。
+12. **oncontextmenu** 获取或设置当前窗口contextmenu事件的事件处理函数。除非默认行为已经阻止了(看下面的例子是如何阻止的)，否则右键菜单会被激活
 13. **oncuechange**
 14. **ondblclick**
 15. **ondrag**
